@@ -1,6 +1,6 @@
 {
   "name": "effect-snow",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A scene of snow as background",
   "main": "dist/snow.min.js",
   "module": "dist/snow.esm.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhenyanghua/effects/tree/master/snow"
+    "url": "https://github.com/zhenyanghua/effects/tree/main/snow"
   },
   "keywords": [
     "snow",
