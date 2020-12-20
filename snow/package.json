@@ -1,0 +1,28 @@
+{
+  "name": "effect-snow",
+  "version": "1.0.3",
+  "description": "A scene of snow as background",
+  "main": "dist/snow.min.js",
+  "module": "dist/snow.esm.js",
+  "scripts": {
+    "build": "node ./build.mjs",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhenyanghua/effects/tree/master/snow"
+  },
+  "keywords": [
+    "snow",
+    "effect",
+    "christmas"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Zhenyang Hua",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.8.24"
+  }
+}

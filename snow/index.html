@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+      html, body {
+        height: 100vh;
+        margin: 0;
+        background-color: #011d3e;V
+      }
+      button {
+        font-size: 2rem;
+      }
+    </style>
+    <title>Snow Effect</title>
+  </head>
+  <body>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    <script src="https://unpkg.com/effect-snow"></script>
+    <script>
+// <!--    <script type="module">-->
+    //   import Snow from './dist/snow.esm.js';
+    //   import Snow from './src/Snow.js';
+
+      const body = document.querySelector('body');
+
+      let it = new Snow(body);
+
+      document.getElementById('start').addEventListener('click', () => it.start());
+      document.getElementById('stop').addEventListener('click', () => it.stop());
+    </script>
+  </body>
+</html>
+  
