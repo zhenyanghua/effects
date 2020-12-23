@@ -29,11 +29,16 @@ class Snow {
       intensity = 1;
     }
 
+    const container = document.createElement('div');
+    container.style.cssText = 'position: relative; top: 0; left: 0;';
+
     const canvas = document.createElement('canvas');
     canvas.setAttribute('width', node.clientWidth);
     canvas.setAttribute('height', node.clientHeight);
     canvas.style.cssText = 'position: absolute; top: 0; left: 0; pointer-events: none; background: transparent;';
-    node.prepend(canvas);
+
+    container.append(canvas);
+    node.prepend(container);
 
     this.ctx = canvas.getContext('2d');
     this.width = canvas.getBoundingClientRect().width;
