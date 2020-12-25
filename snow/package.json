@@ -1,6 +1,6 @@
 {
   "name": "effect-snow",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A scene of snow as background",
   "main": "dist/snow.min.js",
   "module": "dist/snow.esm.js",
