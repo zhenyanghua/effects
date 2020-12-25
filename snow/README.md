@@ -5,12 +5,15 @@
 
 ## Global import
 From package
-```js
-<script src="dist/snow.min.js"></script>
+```
+npm install effect-snow
+```
+```html
+<script src="node_modules/effect-snow/dist/snow.min.js"></script>
 ```
 
 or from CDN
-```js
+```html
 <script src="https://unpkg.com/effect-snow"></script>
 ```
 ## ESM import
