@@ -32,7 +32,7 @@ class Snow {
     const container = document.createElement('div');
     const topOffset = window.getComputedStyle(node).getPropertyValue('padding-top');
     const leftOffset = window.getComputedStyle(node).getPropertyValue('padding-left');
-    container.style.cssText = `position: relative; top: -${topOffset}; left: -${leftOffset}; justify-self: start; align-self: start;`;
+    container.style.cssText = `position: relative; top: -${topOffset}; left: -${leftOffset}; justify-self: start; align-self: start; z-index: 1;`;
 
     const canvas = document.createElement('canvas');
     canvas.setAttribute('width', node.clientWidth);
